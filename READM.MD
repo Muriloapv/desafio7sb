@@ -35,3 +35,4 @@ Itens Magicos
 
 
 
+rodar test : npx jest

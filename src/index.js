@@ -1,6 +1,7 @@
 const express = require('express');
 const personagemRoutes = require('./routes/personagem.routes');
 const itemRoutes = require('./routes/item.routes');
+const { personagens, itens } = require('./database/db'); // Corrigido o caminho
 
 const app = express();
 app.use(express.json());
